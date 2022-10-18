@@ -1,0 +1,8 @@
+<h3>Enter User Details</h3>
+<form #user="ngForm" (ngSubmit)="addUser(user.value)">
+    <input type="text" ngModel name="name" placeholder="Enter User Name">
+    <br><br>
+    <input type="text" ngModel name="job" placeholder="Enter User Job">
+    <br><br>
+    <button>Submit</button>
+</form>
